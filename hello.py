@@ -9,3 +9,8 @@ def greet(name: str) -> str:
 def shout(text: str) -> str:
     """Return *text* in uppercase with an exclamation mark."""
     return text.upper() + "!"
+
+
+def cheer(name: str) -> str:
+    """Return an enthusiastic cheer for *name*."""
+    return f"Cheer, {name}!"
